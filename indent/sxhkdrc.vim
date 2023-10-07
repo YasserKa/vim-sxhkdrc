@@ -14,7 +14,6 @@ endif
 function GetIndentSXHKD()
 	" Find a non-blank line above the current line:
 	let lnum = prevnonblank(v:lnum - 1)
-        echo 'hello'
 
 	" No indent for the start of the file:
 	if lnum == 0
